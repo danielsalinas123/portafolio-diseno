@@ -1,0 +1,81 @@
+:root{
+    --color-scrollbar:#D3D3D4;
+}
+
+/* Scroll MOZ */
+@supports (-moz-appearance: none) {
+    .content__page{
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-scrollbar) transparent;
+    }
+}
+
+/* Scroll chrome */
+.content__page::-webkit-scrollbar{
+    width: 25px;
+    background-color: transparent;
+}
+
+.content__page::-webkit-scrollbar-thumb{
+    border: 10px solid transparent;
+    border-radius: 40px;
+    box-shadow: none;
+}
+
+.content__page:hover::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 0 10px var(--color-scrollbar);
+}
+
+.content__page:hover::-webkit-scrollbar-thumb:hover{
+    box-shadow: inset 0 0 0 10px var(--color-secundario);
+    border: 8px solid transparent;
+}
+
+.content__page:hover{
+    /* Required to trigger scrollbar hover repaint in WebKit */
+}
+
+/* track es la pista por la que se desliza el thumb */
+.content__page::-webkit-scrollbar-track{
+    margin: 40px 0;
+}
+
+/* *********** ASIDE ************* */
+
+/* Scroll MOZ */
+@supports (-moz-appearance: none) {
+    .layout__aside{
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-scrollbar) var(--color-secundario);
+    }
+}
+
+/* Scroll en chrome para el aside */
+.layout__aside::-webkit-scrollbar{
+    width: 25px;
+    background-color: var(--color-secundario);
+}
+
+.layout__aside::-webkit-scrollbar-thumb{
+    border: 10px solid transparent;
+    border-radius: 40px;
+    box-shadow: none;
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 0 10px var(--color-principal);
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb:hover{
+    box-shadow: inset 0 0 0 10px var(--color-principal);
+    border: 8px solid transparent;
+}
+
+.layout__aside:hover{
+    /* Required to trigger scrollbar hover repaint in WebKit */
+}
+
+/* track es la pista por la que se desliza el thumb */
+.layout__aside::-webkit-scrollbar-track{
+    margin: 40px 0;
+}
