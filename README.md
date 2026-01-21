@@ -98,3 +98,13 @@ Este portafolio tiene como objetivo:
 ---
 
 Si tienes sugerencias o feedback, ¡son bienvenidos!
+
+---
+
+## 📚 Nota
+
+Este proyecto está basado en un curso de desarrollo web de Víctor Robles.
+
+El código ha sido adaptado y modificado respecto al material original, incorporando
+decisiones propias en cuanto a diseño responsive, accesibilidad, estructura del proyecto
+y navegación.
