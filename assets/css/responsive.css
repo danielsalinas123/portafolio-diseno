@@ -1,0 +1,141 @@
+@media (max-width: 1320px)
+{
+    .layout{
+        min-width: auto;
+        width: 89%;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width:1160px)
+{
+    .layout{
+        width: 85%;
+        margin-left: 4rem;
+    }
+
+    .certificates__certificate{
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width:1060px)
+{
+    body{
+        background: none;
+    }
+
+    .layout{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border-radius: 0;
+        grid-template-columns: 0 100%;
+    }
+
+    .layout__content{
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    .content__page{
+        border-radius: 0;
+    }
+
+    .layout__menu{
+        position: static;
+    }
+}
+
+@media (max-width: 800px)
+{
+    .reviews__container{
+        flex-direction: column;
+    }
+
+    .clients__container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .prices__container{
+        flex-direction: column;
+    }
+
+    .prices__box{
+        width: 100%;
+        flex-basis: auto;
+    }
+
+    .gallery__item{
+        flex-basis: 50%;
+    }
+
+    .articles__article{
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 585px)
+{
+    .about__personal-info{
+        flex-direction: column;
+    }
+
+    .personal-info__data{
+        flex-basis: auto;
+    }
+
+    .services__container{
+        flex-direction: column;
+    }
+
+    .services__service{
+      flex-basis: auto; 
+    }
+
+    .extra__container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .resume__container{
+        flex-direction: column;
+    }
+
+    .resume__right{
+        flex-basis: auto;
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    .portfolio__link{
+        white-space: nowrap;
+    }
+
+    .contact__container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .page__name{
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+        text-align: center;
+    }
+
+    .certificate__logo{
+        width: 100%;
+    }
+
+    .gallery__item{
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .form__container{
+        flex-direction: column;
+    }
+}
