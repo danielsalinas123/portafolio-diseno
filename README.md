@@ -2,7 +2,7 @@
 
 Este repositorio contiene una maquetación de un **portafolio de diseño web**, desarrollado con **HTML, CSS y JavaScript**, enfocado en buenas prácticas de **responsive design**, **accesibilidad** y **navegación funcional entre páginas**.
 
-La **versión 2** consolida el proyecto como una base sólida y usable en distintos dispositivos, mejorando la estructura visual y la experiencia de usuario.
+La **versión 2.1** consolida el proyecto como una base sólida y usable en distintos dispositivos, mejorando la estructura visual y la experiencia de usuario.
 
 ---
 
@@ -67,8 +67,9 @@ portafolio-diseno/
 
 Este proyecto sigue **versionado semántico**:
 
-- **v1.0** – Diseño base y estructura inicial  
-- **v2.0** – Responsive completo, navegación funcional y mejoras de accesibilidad  
+- **v1.0.0** – Diseño base y estructura inicial  
+- **v2.0.0** – Responsive completo, navegación funcional y mejoras de accesibilidad  
+- **v2.1.0** – Mejora del layout desktop y ajuste de breakpoints
 
 ---
 

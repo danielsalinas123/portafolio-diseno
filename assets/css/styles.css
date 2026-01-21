@@ -46,8 +46,7 @@ h1,h2,h3,h4,h5,h6{
 /* Estructura principal */
 .layout{
     position: relative;
-    min-width: 1290px;
-    width: 75%;
+    width: 80%;
     height: 80%;
     margin: 10vh auto;
 
