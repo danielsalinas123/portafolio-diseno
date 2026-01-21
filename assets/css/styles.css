@@ -18,12 +18,11 @@
 
 /* ***************** ESTILOS COMPARTIDOS TODAS LAS PÁGINAS ******************** */
 html{
-    font-size: 10px;
+    font-size: 62.5%;/* Equivalente a 10px */
     height: 100%;  
 }
 
 body{
-    border: 1px solid red;
     height: 100%;
     font-family: "Poppins",Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
@@ -47,7 +46,7 @@ h1,h2,h3,h4,h5,h6{
 /* Estructura principal */
 .layout{
     position: relative;
-    min-width: 1130px;
+    min-width: 1290px;
     width: 75%;
     height: 80%;
     margin: 10vh auto;
@@ -197,7 +196,7 @@ h1,h2,h3,h4,h5,h6{
 .layout__menu{
     position: absolute;
     top: 0;
-    right: -130px;
+    right: -13rem;
     min-width: 11rem;
     background-color: var(--color-transparent);
 }
@@ -240,7 +239,7 @@ h1,h2,h3,h4,h5,h6{
     top: 50%;
     transform: translateY(-50%);
     display: block;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     opacity: 0;
     color: var(--color-principal);
     background-color: var(--color-secundario);
@@ -295,8 +294,8 @@ h1,h2,h3,h4,h5,h6{
     top: 50%;
     right: 0%;
     transform: translateX(50%);
-    width: 50px;
-    height: 30px;
+    width: 5rem;
+    height: 3rem;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secundario),var(--color-secundario) 1px,transparent 0px, transparent 100%);
     background-size: 6px 6px;
     opacity: 0.5;
@@ -384,8 +383,8 @@ h1,h2,h3,h4,h5,h6{
     top: 50%;
     right: 0%;
     transform: translateX(50%);
-    width: 30px;
-    height: 20px;
+    width: 3rem;
+    height: 2rem;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secundario),var(--color-secundario) 1px,transparent 0px, transparent 100%);
     background-size: 6px 6px;
     opacity: 0.5;
@@ -427,7 +426,7 @@ h1,h2,h3,h4,h5,h6{
 .reviews__review{
     flex-basis: calc(50% - 2.5rem/2);
     border: 2px solid var(--color-border-reviews);
-    border-radius: 20px;
+    border-radius: 2rem;
     padding: 0 2.5rem 1.5rem;
     margin-top: 4.5rem;
 }
@@ -530,8 +529,8 @@ h1,h2,h3,h4,h5,h6{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -3px;
-    height: 2px;
+    bottom: -0.3rem;
+    height: 0.2rem;
     background-color: var(--color-secundario);
 }
 
@@ -1034,7 +1033,7 @@ h1,h2,h3,h4,h5,h6{
     height: 4.2rem;
     font-size: 1.5rem;
     padding: 1rem 2rem 1rem 1.2rem;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     border: 2px solid var(--color-border-reviews);
     outline: none;
     box-shadow: 0 1rem 1rem -8px rgba(0, 0, 0, 0.1);

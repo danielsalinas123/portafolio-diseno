@@ -33,6 +33,7 @@
         width: 100%;
         height: 100%;
         margin: 0;
+        overflow: hidden;
         border-radius: 0;
         grid-template-areas: "content";
         grid-template-columns: 100%;
@@ -75,7 +76,7 @@
 
     .layout__aside{
         grid-area: none;
-        max-width: 330px;
+        max-width: 33rem;
         z-index: 99;
         position: absolute;
         top: 0;
