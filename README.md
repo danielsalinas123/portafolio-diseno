@@ -6,6 +6,14 @@ La **versión 2** consolida el proyecto como una base sólida y usable en distin
 
 ---
 
+## 🔗 Demo
+
+El proyecto puede verse en funcionamiento en GitHub Pages:
+
+https://danielsalinas123.github.io/portafolio-diseno/
+
+---
+
 ## 🚀 Características principales
 
 - 📱 **Diseño responsive completo**
@@ -37,17 +45,19 @@ La **versión 2** consolida el proyecto como una base sólida y usable en distin
 
 ## 📂 Estructura del proyecto
 
+```
 portafolio-diseno/
-│
 ├── css/
 │ └── estilos.css
 ├── js/
 │ └── menu.js
 ├── paginas/
-│ └── *.html
+│ ├── blog.html
+│ ├── contacto.html
+│ └── sobre-mi.html
 ├── index.html
 └── README.md
-
+```
 
 > La estructura puede crecer fácilmente para añadir nuevas secciones o funcionalidades.
 
