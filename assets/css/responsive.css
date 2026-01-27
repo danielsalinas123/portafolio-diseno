@@ -232,7 +232,7 @@
 
     .portfolio__menu{
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .portfolio__link{
@@ -259,6 +259,10 @@
     .gallery__item{
         flex-basis: 100%;
         padding: 0;
+    }
+
+    .form-header__title{
+        white-space: nowrap;
     }
 
     .form__container{

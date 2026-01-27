@@ -1,110 +1,104 @@
-# Portafolio de Diseño – Versión 2
+# Portafolio Diseño Frontend
 
-Este repositorio contiene una maquetación de un **portafolio de diseño web**, desarrollado con **HTML, CSS y JavaScript**, enfocado en buenas prácticas de **responsive design**, **accesibilidad** y **navegación funcional entre páginas**.
-
-La **versión 2.1** consolida el proyecto como una base sólida y usable en distintos dispositivos, mejorando la estructura visual y la experiencia de usuario.
+Maquetación frontend de un sitio web tipo portafolio personal.
 
 ---
 
-## 🔗 Demo
-
-El proyecto puede verse en funcionamiento en GitHub Pages:
-
+## 🌐 Demo
 https://danielsalinas123.github.io/portafolio-diseno/
 
 ---
 
-## 🚀 Características principales
+## 🧩 Descripción
 
-- 📱 **Diseño responsive completo**
-  - Adaptado a escritorio, tablet y móvil
-  - Uso de media queries y layouts flexibles
+Este proyecto consiste en la **maquetación y desarrollo frontend** de un sitio web tipo portafolio personal, enfocado en presentar secciones comunes como:
 
-- 🧭 **Menú de navegación funcional**
-  - Implementado con JavaScript
-  - Permite navegar correctamente entre las distintas páginas del portafolio
+- Página principal
+- Sobre mí
+- Curriculum
+- Portafolio
+- Blog
+- Contacto
 
-- ♿ **Mejoras de accesibilidad**
-  - Uso de unidades relativas (`rem`) en lugar de `px`
-  - Estructura semántica en HTML
-  - Escalado correcto del texto según configuración del navegador
+⚠️ **Importante:**  
+Este **no es un portafolio real** ni pertenece a una persona o marca existente.  
+Se trata de una **maquetación ficticia**, creada **exclusivamente con fines educativos, de práctica y de portafolio frontend**.
 
-- 🧱 **Código mantenible y escalable**
-  - Separación clara de responsabilidades (HTML / CSS / JS)
-  - Estilos reutilizables
+---
+
+## 🎯 Objetivos del proyecto
+
+- Practicar la creación de un sitio web multipágina
+- Aplicar buenas prácticas de **HTML semántico**
+- Construir una interfaz **responsive**
+- Implementar navegación con **JavaScript Vanilla**
+- Reforzar conceptos de **accesibilidad y estructura de proyecto**
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-- **HTML5** – estructura semántica  
-- **CSS3** – diseño responsive y accesible  
-- **JavaScript (Vanilla)** – lógica del menú de navegación  
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
+
+*(No se utilizan frameworks ni librerías externas)*
 
 ---
 
-## 📂 Estructura del proyecto
+## 📁 Estructura del proyecto
 
 ```
 portafolio-diseno/
+│
+├── assets/
+│ ├── img/
+│ └── fonts/
+│
 ├── css/
-│ └── estilos.css
+│
 ├── js/
-│ └── menu.js
+│
 ├── paginas/
+│ ├── sobre-mi.html
+│ ├── curriculum.html
+│ ├── portafolio.html
 │ ├── blog.html
-│ ├── contacto.html
-│ └── sobre-mi.html
+│ └── contacto.html
+│
 ├── index.html
 └── README.md
 ```
 
-> La estructura puede crecer fácilmente para añadir nuevas secciones o funcionalidades.
+---
+
+## 📱 Diseño responsive
+
+El sitio está diseñado para adaptarse a distintos tamaños de pantalla:
+
+- Escritorio
+- Tablet
+- Dispositivos móviles
 
 ---
 
-## 🏷️ Versionado
+## 🚀 Estado del proyecto
 
-Este proyecto sigue **versionado semántico**:
+🟢 **Finalizado**
 
-- **v1.0.0** – Diseño base y estructura inicial  
-- **v2.0.0** – Responsive completo, navegación funcional y mejoras de accesibilidad  
-- **v2.1.0** – Mejora del layout desktop y ajuste de breakpoints
-
----
-
-## 🎯 Objetivo del proyecto
-
-Este portafolio tiene como objetivo:
-
-- Practicar y demostrar habilidades en desarrollo frontend
-- Aplicar principios de diseño responsive y accesible
-- Construir una base sólida para futuras mejoras (animaciones, optimización, frameworks, etc.)
+El proyecto se encuentra completo y funcional según los objetivos planteados.  
+Puede recibir mejoras futuras de diseño o contenido como ejercicio adicional.
 
 ---
 
-## 📌 Próximas mejoras
+## 📌 Notas
 
-- Animaciones y transiciones
-- Mejoras en SEO
-- Optimización de rendimiento
-
----
-
-## 👤 Autor
-
-**Daniel Salinas Jaramillo**
+- Este repositorio forma parte de mi proceso de aprendizaje en **desarrollo frontend**.
+- El contenido, textos e imágenes son de carácter demostrativo.
+- No representa un portafolio profesional real ni un servicio comercial.
 
 ---
 
-Si tienes sugerencias o feedback, ¡son bienvenidos!
+## 📄 Licencia
 
----
-
-## 📚 Nota
-
-Este proyecto está basado en un curso de desarrollo web de Víctor Robles.
-
-El código ha sido adaptado y modificado respecto al material original, incorporando
-decisiones propias en cuanto a diseño responsive, accesibilidad, estructura del proyecto
-y navegación.
+Este proyecto se publica bajo la licencia **MIT** y puede ser utilizado libremente con fines educativos.
